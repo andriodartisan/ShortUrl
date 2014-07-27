@@ -33,6 +33,9 @@
     }
 
     $url = "http://www.cnblogs.com/zemliu/";
+    
+    
+    
     $short = Short_Url::short($url);
     print_r($short);
 ?>
