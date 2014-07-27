@@ -34,6 +34,8 @@
 
     $url = "http://www.cnblogs.com/zemliu/";
     //test update
+    
+    //for short branch test
     $short = Short_Url::short($url);
     print_r($short);
 ?>
